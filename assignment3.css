@@ -1,0 +1,48 @@
+h1 {
+    color:red;
+    background-color: black;
+}
+
+h2 {
+    color: white;
+    background-color: red;
+}
+
+h3 {
+    color: red;
+    background-color: black;
+}
+
+h4 {
+  color: darkred;
+}
+
+a {
+    color: #ff0000;
+  }
+  
+  a:link {
+    color:red;
+  }
+  
+  a:visited {
+    color: green;
+  }
+  
+  a:active {
+    color: #00ffff;
+  }
+  
+  a:hover {
+    color: #ffff00;
+  }  
+
+  #CTKInfo {
+    color: lightcoral;
+    background-color: black;
+  }
+
+  .CTK {
+    color: red;
+    background-color: black;
+  }
