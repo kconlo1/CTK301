@@ -1,0 +1,56 @@
+.topofpage {
+    background-color: rgb(181, 181, 252);
+
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: blue;
+}
+
+.theycallme {
+    font-weight: bold;
+    color: orange;
+}
+
+.makered {
+    color:red;
+}
+
+h3 {
+    background-color: yellow;
+}
+
+a:link {
+    text-decoration: none;
+    color:green;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+h4 {
+    background-color: green;
+    color: yellow;
+}
+
+.backgroundgreen {
+    background-color: lightgreen;
+}
+
+.backgroundyellow {
+    background-color: yellow;
+}
+
+h5 {
+    color:red;
+}
+
+.imdoctor {
+    color: blue;
+}
