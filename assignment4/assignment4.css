@@ -1,0 +1,74 @@
+h1 {
+    color: orange;
+    font-weight: normal;
+    font-style: italic;
+}
+
+h2 {
+    color: orange;
+    font-weight: normal;
+    font-style: italic;
+}
+
+h3 {
+    color: orange;
+    font-weight: normal;
+    font-style: italic;
+}
+
+h4 {
+  color: orange;
+  font-weight: normal;
+  font-style: italic;
+}
+
+a {
+    color: #ff0000;
+  }
+  
+  a:link {
+    color:red;
+  }
+  
+  a:visited {
+    color: green;
+  }
+  
+  a:active {
+    color: #00ffff;
+  }
+  
+  a:hover {
+    color: #ffff00;
+  }  
+
+  #CTKInfo {
+    color: lightcoral;
+    background-color: black;
+    text-align: center;
+  }
+
+  .CTK {
+    color: red;
+    background-color: black;
+  }
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.justify {
+  text-align: justify;
+}
+
+img {
+  border: 70px solid black;
+  padding: 30px;
+  background-color: yellow;
+}
+
+body {
+  background-color: #0000ff;
+  background-image: url(Honeycrisp-Apple.jpg);
+  background-repeat: no-repeat;
+  background-position: top left;
+}  
