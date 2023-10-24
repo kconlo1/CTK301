@@ -1,0 +1,149 @@
+body{
+    background-color: gray;
+}
+
+#wrapper {
+    margin: auto;
+    padding: 0px;
+    width: 960px;
+    border: 5px solid blue;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+}
+
+header {
+    grid-column: span 12;
+    border-bottom: 3px solid blue;
+    color: black;
+    background: rgb(38,46,64);
+    background: linear-gradient(0deg, rgba(38,46,64,1) 0%, rgba(22,99,228,1) 100%);
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+ 
+h1 {
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: lightblue;
+}
+
+h1 a {
+    color: lightblue;
+}
+
+h1 a:hover {
+    color:red;
+}
+
+nav {
+    grid-column: span 12;
+    padding: 0;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: rgb(38,46,64);
+    background: linear-gradient(0deg, rgba(38,46,64,1) 0%, rgba(22,99,228,1) 100%);
+  }
+  
+  li {
+    float: left;
+    width: 310px;
+    border:solid 5px lightblue;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  li a:hover {
+    background: rgb(38,46,64);
+    background: linear-gradient(180deg, rgba(38,46,64,1) 0%, rgba(22,99,228,1) 100%);
+    color: white;
+    text-decoration: none;
+  }
+
+main {
+    grid-column: span 8;
+    margin: 0px;
+    padding: 10px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-bottom: 5px solid blue;
+    color: blue;
+}
+
+.floatimg {
+    float: left;
+    border: 5px solid blue ;
+    margin-right: 20px;
+}
+
+.footerimg {
+    background-color: red;
+}
+
+.boldp {
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align:justify;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: blue;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+footer {
+    grid-column:span 13;
+    border-top: 5px solid blue;
+    clear: both;
+    background-color: red;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0px;
+}
+
+aside {
+    grid-column: span 4;
+    background-color: skyblue;
+    color: black;
+    padding: 10px;
+}
+
+aside h2{
+    border-bottom:3px solid blue;
+}
+
+.asidetext {
+    font-weight: bold;
+    text-align: justify;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
