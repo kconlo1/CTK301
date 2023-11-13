@@ -1,0 +1,201 @@
+.mediaViewInfo {
+	--web-view-name: 1200 px Grid;
+	--web-view-id: n_200_px_Grid;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: n_200_px_Grid;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#n_200_px_Grid {
+	position: absolute;
+	width: 1200px;
+	height: 870px;
+	background-color: rgba(0,0,0,1);
+	overflow: hidden;
+	--web-view-name: 1200 px Grid;
+	--web-view-id: n_200_px_Grid;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+#Rectangle_1 {
+	fill: rgba(255,159,32,1);
+	stroke: rgba(0,0,0,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_1 {
+	position: absolute;
+	overflow: visible;
+	width: 1152px;
+	height: 100px;
+	left: 24px;
+	top: 24px;
+}
+#Kasss_Site {
+	left: 68px;
+	top: 52px;
+	position: absolute;
+	overflow: visible;
+	width: 185px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Comic Sans MS;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	color: rgba(0,0,0,1);
+}
+#Videos {
+	left: 865px;
+	top: 77px;
+	position: absolute;
+	overflow: visible;
+	width: 87px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Comic Sans MS;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	color: rgba(0,0,0,1);
+}
+#Audio {
+	left: 968px;
+	top: 77px;
+	position: absolute;
+	overflow: visible;
+	width: 75px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Comic Sans MS;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	color: rgba(0,0,0,1);
+}
+#Contact {
+	left: 1059px;
+	top: 77px;
+	position: absolute;
+	overflow: visible;
+	width: 102px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Comic Sans MS;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	color: rgba(0,0,0,1);
+}
+#Rectangle_2 {
+	fill: rgba(255,159,32,1);
+	stroke: rgba(0,0,0,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_2 {
+	position: absolute;
+	overflow: visible;
+	width: 368px;
+	height: 572px;
+	left: 808px;
+	top: 156px;
+}
+#kass_dr_pepper {
+	position: absolute;
+	width: 760px;
+	height: 570px;
+	left: 24px;
+	top: 156px;
+	overflow: visible;
+}
+#About_me {
+	left: 825px;
+	top: 172px;
+	position: absolute;
+	overflow: visible;
+	width: 156px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Comic Sans MS;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	color: rgba(0,0,0,1);
+}
+#Line_1 {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_1 {
+	overflow: visible;
+	position: absolute;
+	width: 335px;
+	height: 5px;
+	left: 825.5px;
+	top: 216.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#im_kass_and_i_like_dr_pebba {
+	left: 825px;
+	top: 227px;
+	position: absolute;
+	overflow: visible;
+	width: 336px;
+	height: 474px;
+	text-align: left;
+	font-family: Comic Sans MS;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	color: rgba(0,0,0,1);
+}
+#Rectangle_3 {
+	fill: rgba(255,159,32,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_3 {
+	position: absolute;
+	overflow: visible;
+	width: 1152px;
+	height: 100px;
+	left: 24px;
+	top: 741px;
+}
+#Footer {
+	left: 44px;
+	top: 772px;
+	position: absolute;
+	overflow: visible;
+	width: 1117px;
+	height: 39px;
+	text-align: left;
+	font-family: Comic Sans MS;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	color: rgba(0,0,0,1);
+}
