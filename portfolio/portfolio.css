@@ -41,7 +41,7 @@
 	left: 24px;
 	top: 24px;
 }
-#Kasss_Site {
+#Kasss_Site a {
 	left: 68px;
 	top: 52px;
 	position: absolute;
@@ -49,11 +49,12 @@
 	width: 185px;
 	white-space: nowrap;
 	text-align: left;
-	font-family: Comic Sans MS;
+	font-family: 'Rubik', sans-serif;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 32px;
 	color: rgba(0,0,0,1);
+	text-decoration: none;
 }
 #Videos {
 	left: 865px;
@@ -63,13 +64,27 @@
 	width: 87px;
 	white-space: nowrap;
 	text-align: left;
-	font-family: Comic Sans MS;
+	font-family: 'Rubik', sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 28px;
 	color: rgba(0,0,0,1);
+	transition: background-color 1.0s, width 2.0s, color 1.0s;
 }
-#Audio {
+
+#Videos a {
+	color: black;
+	font-style: normal;
+	text-decoration: none;
+}
+
+#Videos a:hover {
+	font-weight: bold;
+	color: rgb(92, 29, 0);
+
+}
+
+#Audio a {
 	left: 968px;
 	top: 77px;
 	position: absolute;
@@ -77,13 +92,23 @@
 	width: 75px;
 	white-space: nowrap;
 	text-align: left;
-	font-family: Comic Sans MS;
+	font-family: 'Rubik', sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 28px;
 	color: rgba(0,0,0,1);
+	text-decoration: none;
+	transition: background-color 1.0s, width 2.0s, color 1.0s;
+
 }
-#Contact {
+
+#Audio a:hover {
+	font-weight: bold;
+	color: rgb(92, 29, 0);
+
+}
+
+#Contact a {
 	left: 1059px;
 	top: 77px;
 	position: absolute;
@@ -91,12 +116,22 @@
 	width: 102px;
 	white-space: nowrap;
 	text-align: left;
-	font-family: Comic Sans MS;
+	font-family: 'Rubik', sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 28px;
 	color: rgba(0,0,0,1);
+	text-decoration: none;
+	transition: background-color 1.0s, width 2.0s, color 1.0s;
+
 }
+
+#Contact a:hover {
+	font-weight: bold;
+	color: rgb(92, 29, 0);
+
+}
+
 #Rectangle_2 {
 	fill: rgba(255,159,32,1);
 	stroke: rgba(0,0,0,1);
@@ -130,7 +165,7 @@
 	width: 156px;
 	white-space: nowrap;
 	text-align: left;
-	font-family: Comic Sans MS;
+	font-family: 'Rubik', sans-serif;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 32px;
@@ -162,7 +197,7 @@
 	width: 336px;
 	height: 474px;
 	text-align: left;
-	font-family: Comic Sans MS;
+	font-family: 'Rubik', sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 28px;
@@ -193,9 +228,13 @@
 	width: 1117px;
 	height: 39px;
 	text-align: left;
-	font-family: Comic Sans MS;
+	font-family: 'Rubik', sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 28px;
 	color: rgba(0,0,0,1);
+}
+
+body {
+	background-color: black;
 }
