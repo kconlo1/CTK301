@@ -1,0 +1,155 @@
+body{
+    background-color: black;
+}
+
+#wrapper {
+    margin: auto;
+    padding: 0px;
+    width: 960px;
+    border: 5px solid black;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+}
+
+header {
+    grid-column: span 12;
+    border-bottom: 3px solid black;
+    color: black;
+    background: rgb(245, 96, 2);
+    padding-left: 10px;
+	font-family: 'Rubik', sans-serif;
+    margin: 0;
+    text-decoration: none;
+    border: 8px solid black;
+
+}
+ 
+h1 {
+    font-weight: normal;
+	font-family: 'Rubik', sans-serif;
+    color: black;
+    text-decoration: none;
+
+}
+
+h1 a {
+    color: black;
+    text-decoration: none;
+}
+
+h1 a:hover {
+    color:rgb(92, 5, 5);
+    text-decoration: none;
+
+}
+
+nav {
+    grid-column: span 12;
+    padding: 0;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: rgb(245, 96, 2);
+    border: 8px solid black;
+  }
+  
+  li {
+    float: left;
+    width: 310px;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-family: 'Rubik', sans-serif;
+  }
+  
+  li a:hover {
+    background: rgb(245, 96, 2);
+    color: rgb(92, 5, 5);
+    text-decoration: none;
+  }
+
+main {
+    grid-column: span 8;
+    margin: 0px;
+    padding: 10px;
+    border: 8px solid black;
+}
+
+h2 {
+	font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    border-bottom: 5px solid black;
+    color: black;
+}
+
+.floatimg {
+    float: left;
+    margin-right: 20px;
+    grid-column: span 8;
+    width: auto;
+}
+
+.footerimg {
+    background-color: red;
+}
+
+.boldp {
+    font-weight: bold;
+	font-family: 'Rubik', sans-serif;
+    text-align:justify;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: blue;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+footer {
+    grid-column:span 13;
+    border-top: 5px solid blue;
+    clear: both;
+    background-color: red;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0px;
+}
+
+aside {
+    grid-column: span 4;
+    background-color: rgb(245, 96, 2);
+    color: black;
+    padding: 10px;
+}
+
+aside h2{
+    border-bottom:3px solid black;
+}
+
+.asidetext {
+    font-weight: bold;
+    text-align: justify;
+}
+
+p {
+	font-family: 'Rubik', sans-serif;
+}
