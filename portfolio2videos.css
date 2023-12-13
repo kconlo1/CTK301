@@ -81,7 +81,7 @@ ul {
   }
 
 main {
-    grid-column: span 8;
+    grid-column: span 9;
     margin: 0px;
     padding: 10px;
     border: 8px solid black;
@@ -135,7 +135,7 @@ footer {
 }
 
 aside {
-    grid-column: span 4;
+    grid-column: span 3;
     background-color: rgb(245, 96, 2);
     color: black;
     padding: 10px;
